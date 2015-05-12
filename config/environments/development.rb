@@ -1,4 +1,4 @@
-Rails.application.configure do
+DemoApp1::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -34,4 +34,6 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  config.secret_key_base = '53e731611891ad7b917616938529caf9d3692aa3795c141c2fd4976c86b4b9e34739a175f776e7a073ef4c852812794294d920602f047d813d4546660a3837ca'  
 end
